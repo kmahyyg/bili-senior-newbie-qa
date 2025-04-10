@@ -15,7 +15,7 @@
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.slim.min.js
 // @license      Apache-2.0
 // @connect      api.deepseek.com
-// @connect      api.chatanywhere.tech
+// @connect      openrouter.ai
 // ==/UserScript==
 
 "use strict";
@@ -48,19 +48,19 @@
 
   let { API_KEY, GPT_TYPE } = GM_getValue('API_KEY') || { API_KEY: '', GPT_TYPE: '' };
   let prevQuestion = '';
-  GM_registerMenuCommand('设置 ChatAnywhere API 密钥', () => {
-    const key = prompt('请输入 ChatAnywhere API 密钥：', API_KEY);
-    if (key) {
-      API_KEY = key;
-      GPT_TYPE = 'ChatAnywhere';
-      GM_setValue('API_KEY', { API_KEY, GPT_TYPE });
-    }
-  });
   GM_registerMenuCommand('设置 DeepSeek API 密钥', () => {
     const key = prompt('请输入 DeepSeek API 密钥：', API_KEY);
     if (key) {
       API_KEY = key;
       GPT_TYPE = 'DeepSeek';
+      GM_setValue('API_KEY', { API_KEY, GPT_TYPE });
+    }
+  });
+  GM_registerMenuCommand('设置 OpenRouter API 密钥', () => {
+    const key = prompt('请输入 OpenRouter API 密钥：', API_KEY);
+    if (key) {
+      API_KEY = key;
+      GPT_TYPE = 'OpenRouter';
       GM_setValue('API_KEY', { API_KEY, GPT_TYPE });
     }
   });
@@ -134,11 +134,11 @@
   }
 
   const API_URL = {
-    'ChatAnywhere': 'https://api.chatanywhere.tech/v1/chat/completions',
+    'OpenRouter': 'https://openrouter.ai/api/v1/chat/completions',
     'DeepSeek': 'https://api.deepseek.com/v1/chat/completions'
   };
   const GPT_MODEL = {
-    'ChatAnywhere': 'gpt-4o-mini',
+    'OpenRouter': 'deepseek/deepseek-chat-v3-0324',
     'DeepSeek': 'deepseek-chat'
   };
   function callGPTAPI(question) {

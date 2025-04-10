@@ -15,7 +15,7 @@
 4. 在地址栏输入[https://www.bilibili.com/h5/senior-newbie/](https://www.bilibili.com/h5/senior-newbie/)并回车，进入答题，等待网页加载完成；
 5. 点击浏览器上的Tampermonkey扩展图标（一般在右上角）；
 6. （首次使用需要）点击`哔哩哔哩硬核会员搜题GPT`下的`设置 ChatAnywhere API 密钥`或`设置 DeepSeek API 密钥`，输入你的密钥；
-    - [获取ChatAnywhere API 密钥](https://github.com/chatanywhere/GPT_API_free?tab=readme-ov-file#%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8)(免费，准确率较`DeepSeek`低)
+    - [获取OpenRouter API 密钥](https://openrouter.ai)(免费，准确率较`DeepSeek`低)
     - [获取DeepSeek API 密钥](https://platform.deepseek.com/)(付费，准确率较高)
 7. 点击`哔哩哔哩硬核会员搜题GPT`下的`启动`。
 
