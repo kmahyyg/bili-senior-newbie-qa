@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         哔哩哔哩硬核会员搜题GPT
-// @namespace    bili-senior-newbie-qa-GPT
-// @version      1.3
-// @description  哔哩哔哩硬核会员搜题GPT
+// @name         哔哩哔哩硬核会员搜题GPT-modY
+// @namespace    bili-senior-newbie-qa-GPT-modY
+// @version      1.4
+// @description  哔哩哔哩硬核会员搜题GPT-modY
 // @author       HCLonely & kmahyyg
 // @include      *://www.bilibili.com/h5/senior-newbie/qa*
 // @run-at       document-end
