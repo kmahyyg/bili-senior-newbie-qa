@@ -1,5 +1,7 @@
 # bili-senior-newbie-qa
 
+** DO NOT USE! THERE'S BUG IN QUESTION PRASING! 2025/04 **
+
 ## 安装
 
 1. 安装[Tampermonkey](https://www.tampermonkey.net/index.php)(建议)或其他脚本管理器；
