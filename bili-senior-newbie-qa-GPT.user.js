@@ -3,7 +3,7 @@
 // @namespace    bili-senior-newbie-qa-GPT
 // @version      1.3
 // @description  哔哩哔哩硬核会员搜题GPT
-// @author       HCLonely
+// @author       HCLonely & kmahyyg
 // @include      *://www.bilibili.com/h5/senior-newbie/qa*
 // @run-at       document-end
 // @grant        GM_setValue
@@ -11,7 +11,7 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_xmlhttpRequest
 // @grant        GM_notification
-// @homepage     https://github.com/HCLonely/bili-senior-newbie-qa
+// @homepage     https://github.com/kmahyyg/bili-senior-newbie-qa
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.slim.min.js
 // @license      Apache-2.0
 // @connect      api.deepseek.com
